@@ -16,6 +16,6 @@ if st.button("Predict"):
     if prediction == 1:
         st.error("Spam Email")
     else:
-        st.success("Ham Email")
+        st.success("Legitimate Email")
 
     st.write("Confidence Score:", round(probability * 100, 2), "%")
