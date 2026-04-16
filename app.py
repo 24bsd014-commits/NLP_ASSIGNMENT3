@@ -5,7 +5,7 @@ import joblib
 model = joblib.load("spam_model.pkl")
 
 st.title("Spam Email Classifier")
-st.write("Enter the email text below to check whether it is spam or ham.")
+st.write("Enter the email text below to check whether it is spam or legitimate.")
 
 email_text = st.text_area("Enter email text")
 
